@@ -1,0 +1,14 @@
+.inputFields{
+    @apply cursor-pointer flex items-center relative 2xl:w-[250px]; 
+}
+.inputFields input{
+    @apply border-2 border-[#EFEFEF] w-full rounded-[45px] py-2.5 px-3 placeholder:text-[#C0C0C0];
+    letter-spacing: 1px;
+}
+.icon{
+    @apply absolute right-3
+}
+.uploadButton{
+    @apply border border-primary text-white text-[14px] bg-primary flex items-center justify-center px-10 cursor-pointer py-3 rounded-[45px];
+    letter-spacing: 1.4px;
+}

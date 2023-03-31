@@ -1,0 +1,13 @@
+.header{
+    @apply lg:px-[40px] 2xl:max-w-[1400px] 2xl:m-auto 2xl:px-0  w-full flex justify-between items-center py-4 xl:px-[120px];
+}
+.menubar ul, .uploadFields{
+    @apply flex gap-4 2xl:gap-7
+}
+.logo h2{
+    @apply text-primary text-[20px] 2xl:text-[24px] font-bold font-custom mr-2 border-r pr-3 2xl:pr-6 border-[#EFEFEF]
+}
+.menubar li a {
+    @apply font-[500] text-black text-[14px] 2xl:text-[16px] hover:text-primary transition-all duration-100;
+    letter-spacing: 2px;
+}
