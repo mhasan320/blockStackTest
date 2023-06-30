@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { Button, FileUpload, InputFields } from '../FormFields/Index'
@@ -24,7 +23,6 @@ export default function Index() {
 
   const ChangeHandler = (e: any) => {
     setSearchText(e.target.value)
-    console.log(e)
   }
 
   const connectWalletHandler = () => {
@@ -44,7 +42,7 @@ export default function Index() {
   };
 
   return (
-    <div className=' border-b border-[#EFEFEF]'>
+    <div className={style.mainheader}>
       <div className={style.header}>
           <div  className={style.logo}>
               <h2>NFTERS</h2>
@@ -60,7 +58,7 @@ export default function Index() {
           </div>
           <div className={style.uploadFields}>
               <form action="#">
-                  <InputFields type='text' icon={true} placeholder='Search..' value={searchText} onchangeHandler={(e) => ChangeHandler(e)}/>
+                  <InputFields type='text' icon={true} placeholder='Search' value={searchText} onchangeHandler={(e) => ChangeHandler(e)}/>
               </form>
               <FileUpload type='file' placeholder="Upload" handleFileChange={() => handleFileChange(event)}/>
               <Button type='button' clickHander={connectWalletHandler} className='connectWallet' buttonText='Connect Wallet'/>

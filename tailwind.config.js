@@ -11,11 +11,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#3D00B7'
+        primary: '#3D00B7',
+        secondary: '#EFEFEF',
+        textColor: '#565656'
       }
     },
     fontFamily: {
       custom: ['integral_cfmedium', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif']
     }
   },
   plugins: [],

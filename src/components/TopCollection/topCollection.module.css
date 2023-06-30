@@ -14,7 +14,7 @@
     @apply text-[20px] text-black font-medium
 }
 .stFeature p{
-    @apply font-light 
+    @apply font-light text-[0.875rem]
 }
 .Eturam p{
     @apply text-[12px]
@@ -35,7 +35,7 @@
     @apply flex gap-5 mb-9 items-center
 }
 .collects div h3{
-    @apply text-[20px] text-black font-medium
+    @apply text-[1.25rem] text-black font-semibold
 }
 .collects div span, .smallbtn{
     @apply flex gap-2 items-center
@@ -56,10 +56,10 @@
     @apply fill-[#00AC4F]
 }
 .collects div span p{
-    @apply text-[14px] font-thin
+    @apply text-[0.875rem] font-thin
 }
 .lastDays > div{
-    @apply flex gap-3 items-center justify-between border-b border-[#F0F0F0] pb-3 mb-3; 
+    @apply flex gap-3 items-center last:border-none justify-between border-b border-[#F0F0F0] pb-3 mb-3; 
 }
 .lastDays > div span{
     @apply text-black text-[24px] font-semibold
@@ -68,10 +68,10 @@
     @apply pl-4 ml-2 border-l border-[#F0F0F0]
 }
 .collectionRight h3{
-    @apply text-[30px] xl:text-[20px] font-custom font-normal text-black leading-tight;
+    @apply text-[1.25rem] xl:text-[20px] font-custom font-normal text-black leading-tight;
 }
 .collectionRight h5{
-    @apply font-semibold text-[18px] text-[#3D00B7] mb-8
+    @apply font-semibold text-[18px] text-primary mb-8
 }
 .accImg{
     @apply relative
@@ -83,13 +83,13 @@
     @apply font-normal text-[16px] text-black
 }
 .cryptoTile span{
-    @apply flex gap-1 mt-2 !text-[14px] !font-normal
+    @apply flex !text-[#636363] gap-1 mt-2 !text-[14px] !font-normal
 }
 .cryptoTile span svg path{
     @apply fill-black
 }
 .percentage{
-    @apply text-[20px] text-[#14C8B0] font-medium
+    @apply text-[20px] text-[#14C8B0] font-[600] font-poppins
 }
 .redPercentage{
     @apply text-[#FF002E]

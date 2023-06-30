@@ -79,7 +79,7 @@ export default function Index() {
                             <div className={style.bottomGT}>
                                 <div>
                                     <img src={item.userAvater} alt={item.name}/>
-                                    <p>{item.name}</p>
+                                    <p>By {item.name}</p>
                                 </div>
                                 <Button className='smallButton' type='button' buttonText={item.buttonText} clickHander={() => console.log('text')}/>
                             </div>

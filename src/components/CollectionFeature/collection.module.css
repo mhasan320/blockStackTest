@@ -6,7 +6,7 @@
     
 }
 .collectionFeature h3{
-    @apply text-[28px] mb-[50px] font-custom font-normal text-black leading-tight;
+    @apply text-[1.75rem] mb-[50px] font-custom font-normal text-black leading-tight;
 }
 .collectionArray{
     @apply flex gap-3 justify-between
@@ -24,11 +24,14 @@
     @apply w-[85px]
 }
 .amazingGT h4{
-    @apply text-[18px] mt-3 font-medium text-black
+    @apply text-[1.25rem] mt-3 font-[600] text-black
 }
 .bottomGT{
     @apply flex justify-between mt-2
 }
 .bottomGT div{
     @apply flex gap-2 items-center
+}
+.bottomGT div p{
+    @apply text-[0.875rem] font-light
 }
